@@ -7,6 +7,7 @@
 }
 body {
     font-family: 'Mulish', Arial, sans-serif;
+    color: #393939;
 }
 .container {
   width: 70%;
@@ -47,6 +48,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px 0 #ccc;
+  font-family: 'Mulish', Arial, sans-serif;
 }
 .form > form > input {
     background-color: #226624;
@@ -72,5 +74,5 @@ body {
     color: #226624;
 }
 .separateur {
-    
+
 }
