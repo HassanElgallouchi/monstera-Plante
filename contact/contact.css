@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap");
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  font-family: "Mulish", sans-serif;
+}
+.form,
+address {
+  width: 45%;
+}
+.form label {
+  /* font-size: 1em; */
+  margin-bottom: 2%;
+}
+.form label > span {
+  color: #f00;
+}
+.form p {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.form input,
+.form textarea {
+  padding: 1em 1em;
+  /* font-size: 1em; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #ccc;
+  font-family: "Mulish", sans-serif;
+}
+.form > form > input {
+  background-color: #226624;
+  color: #fff;
+  cursor: pointer;
+}
+.form > form input:focus,
+textarea:focus {
+  border-color: #226624;
+  border-width: 2px;
+  outline: none;
+}
+.contact address {
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.container address > img {
+  width: 80%;
+  align-self: center;
+  margin-bottom: 5%;
+}
+.contact address > div > a {
+  color: #226624;
+}
+
+.contact .button {
+  font-family: "Mulish", sans-serif;
+  border: none;
+  box-shadow: none;
+}
+
+.contact .button:hover {
+  color: var(--green);
+  font-weight: 800;
+  background-color: rgba(0, 128, 0, 0);
+  border-top: 1px solid #226624;
+  border-bottom: 1px solid #226624;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* */
+.nav-actived {
+  border-bottom: 5px solid #226624;
+}

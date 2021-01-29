@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.priceButton p {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.priceButton p span {
+  color: red;
+  margin: 0 0 0 10%;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+figure {
+  margin: 1% 2%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  border-radius: 2px;
+  border: 1px solid #dae4e8;
+  max-width: 350px;
+  animation: border-animation 1.75s infinite;
+  box-shadow: 0px 0px 0px 2px #226624;
+}
+
+@keyframes border-animation {
+  0%,
+  100% {
+    box-shadow: 0px 0px 0px 0px #226624;
+  }
+
+  50% {
+    box-shadow: 0px 0px 0px 0.8px #226624;
+  }
+}
+
+figure img {
+  justify-content: center;
+  width: 100%;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+figure img:hover {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 1;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.2);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.2);
+  transition: all 200ms ease-in;
+  transform: scale(1.2);
+}
+
+figcaption {
+  margin: 2% 0%;
+  font-size: 1.15em;
+  color: #393939;
+  font-weight: 700;
+}
+
+.priceButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .productssection .button{
+    padding: 0 1%;
+    color: white;
+    width: 55%;
+} */
+/* .priceButton a{
+    color: #226624;
+
+} */
+
+/* */
+.nav-actived {
+  border-bottom: 5px solid #226624;
+}
