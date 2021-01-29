@@ -23,8 +23,8 @@ window.addEventListener("scroll", helloBuddy);
 //changer le image qui est dans le home page
 let myImage = document.getElementById("mainImage");
 
-let imageArray = ["../img/entreprise.jpg", "../img/entreprise4.jpg",
-  "../img/entreprise3.jpg"];
+let imageArray = ["./img/entreprise.jpg", "./img/entreprise4.jpg",
+  "./img/entreprise3.jpg"];
 
 let imageIndex = 0;
 
