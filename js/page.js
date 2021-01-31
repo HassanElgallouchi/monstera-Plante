@@ -40,7 +40,7 @@ let foot = document.querySelector("footer");
 foot.innerHTML = `<div>
  <nav>
  <a href="index.html">Accueil</a></li>
- <a href="products/product.html">Produits</a></li>
+ <a href="produits/produits.html">Produits</a></li>
  <a href="services/services.html">Services</a></li>
  <a href="contact/contact.html">Contact</a></li>
  </nav>
